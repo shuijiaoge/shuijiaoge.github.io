@@ -92,9 +92,9 @@ class Snowflake {
     }
   }
   function newyear() {
-    document.getElementById('title').innerText = 'Happy Spring Festival';
-    document.getElementById('day').innerText = '春';
-    document.getElementById('hour').innerText = '节';
+    document.getElementById('title').innerText = '万事如意，心想事成';
+    document.getElementById('day').innerText = '新';
+    document.getElementById('hour').innerText = '年';
     document.getElementById('minute').innerText = '快';
     document.getElementById('second').innerText = '乐';
   }
@@ -111,7 +111,7 @@ class Snowflake {
     let item = 1;
     setInterval(() => {
       item++;
-      if (item === 5) {
+      if (item === 7) {
         item = 1;
       }
       console.log(item, 'item');
