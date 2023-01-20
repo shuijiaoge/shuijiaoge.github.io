@@ -70,7 +70,7 @@ class Snowflake {
   new Snow();
   var stop = false;
   function show_runtime() {
-    var newDay = '2023/01/21 00:00:00';
+    var newDay = '2023/01/22 00:00:00';
     var countDate = new Date(newDay);
     var now = new Date().getTime();
     gap = countDate - now;
@@ -92,7 +92,7 @@ class Snowflake {
     }
   }
   function newyear() {
-    document.getElementById('title').innerText = '万事如意，心想事成';
+    document.getElementById('title').innerText = '祝睡觉哥万事如意，心想事成！';
     document.getElementById('day').innerText = '新';
     document.getElementById('hour').innerText = '年';
     document.getElementById('minute').innerText = '快';
